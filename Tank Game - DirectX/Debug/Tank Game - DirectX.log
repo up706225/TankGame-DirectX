@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Tank Game - DirectX.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  textureshaderclass.cpp
+  textureclass.cpp
+  systemclass.cpp
+f:\to keep\uni\port\tankgame-directx\source\systemclass.cpp(497): warning C4244: '=': conversion from 'DWORD' to 'float', possible loss of data
+  playerclass.cpp
+  modelclass.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.11.25503\include\xutility(2294): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.11.25503\include\xutility(2294): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  f:\to keep\uni\port\tankgame-directx\source\modelclass.cpp(320): note: see reference to function template instantiation '_OutIt *std::copy<ModelClass::VertexType*,ModelClass::VertexType*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=ModelClass::VertexType *,
+              _InIt=ModelClass::VertexType *
+          ]
+  Math.cpp
+  main.cpp
+  inputclass.cpp
+  graphicsclass.cpp
+f:\to keep\uni\port\tankgame-directx\source\graphicsclass.cpp(34): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+f:\to keep\uni\port\tankgame-directx\source\graphicsclass.cpp(48): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
+f:\to keep\uni\port\tankgame-directx\source\graphicsclass.cpp(165): warning C4101: 'projectionMatrix': unreferenced local variable
+  gameclass.cpp
+  d3dclass.cpp
+  colorshaderclass.cpp
+  cameraclass.cpp
+  bulletclass.cpp
+  Generating Code...
+  Tank Game - DirectX.vcxproj -> F:\To Keep\Uni\port\TankGame-DirectX\Debug\Tank Game - DirectX.exe

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6443a684-c6d8-4b74-be0a-44e215329392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DX Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{32658ceb-4af0-4cf3-9f9a-c763ec19869c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{591a3d79-adbd-4fe2-a733-1efcd2caf947}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\cameraclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\colorshaderclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\d3dclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\graphicsclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\inputclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\modelclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\systemclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\textureclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\textureshaderclass.cpp">
+      <Filter>DX Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\gameclass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\playerclass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\bulletclass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\cameraclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\colorshaderclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\d3dclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\graphicsclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\inputclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\modelclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\systemclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\textureclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\textureshaderclass.h">
+      <Filter>DX Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\gameclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\playerclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\bulletclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\color.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Source\color.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Source\texture.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Source\texture.ps">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
